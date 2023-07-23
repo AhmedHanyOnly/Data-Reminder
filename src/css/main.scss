@@ -1,0 +1,72 @@
+
+/* Color Theme Swatches in Hex */
+$Crevasse-1-hex: #B4BEC9;
+$Crevasse-2-hex: #159A9C;
+$Crevasse-3-hex: #002333;
+$Crevasse-4-hex: #DEEFE7;
+$Crevasse-5-hex: #FFFFFF;
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: $Crevasse-5-hex;
+}
+h3{
+  color: $Crevasse-5-hex;
+  font-weight: 500;
+}
+.boarder{
+  height: 500px;
+  background-color: $Crevasse-4-hex;
+  border: 2px $Crevasse-2-rgba solid;
+  border-radius: 10px;
+  box-shadow: 3px 5px 10px $Crevasse-1-hex;
+  // overflow: hidden;
+}
+.btn-style{
+  button{
+    background-color: $Crevasse-2-hex;
+    border: none;
+    border-radius: 10px;
+    color: $color-4;
+    font-weight: 500;
+    transition: 0.3s;
+    &:hover{
+      background-color: $Crevasse-3-hex;
+      scale: 0.95;
+    }
+  }
+}
+.card{
+  background-color: $Crevasse-4-hex;
+  border-bottom: 2px solid $Crevasse-1-hex;
+  transition: 0.3s;
+  border-radius: 10px;
+border-right: none;
+border-left: none;
+  &:hover{
+    scale: 1.02;
+  }
+  img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid $Crevasse-2-hex;
+    margin: 10px;
+  }
+  h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: $Crevasse-2-hex;
+  }
+  h5{
+    color: $Crevasse-3-hex;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
