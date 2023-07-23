@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Data-Reminder/static/css/main.25037b55.css",
+    "main.js": "/Data-Reminder/static/js/main.1c2351da.js",
+    "static/media/3135715.png": "/Data-Reminder/static/media/3135715.5faf09a7795d28bf5a2b.png",
+    "index.html": "/Data-Reminder/index.html",
+    "main.25037b55.css.map": "/Data-Reminder/static/css/main.25037b55.css.map",
+    "main.1c2351da.js.map": "/Data-Reminder/static/js/main.1c2351da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25037b55.css",
+    "static/js/main.1c2351da.js"
+  ]
+}
